@@ -24,6 +24,7 @@ The smart contract has been deployed to the Rinkeby testnet. Please do the follo
 Make sure install the ganache-cli. If not, run 
 > npm install -g ganache-cli
 
+* run > ganache-cli
 * **cd** consensysProject
 * Compile the contracts **
 How to run unit test
@@ -31,10 +32,6 @@ How to run unit test
 2. go to   run truffle test ./test/questittit .js
 
 
-As Kanye West said:
-
-> We're living the future so
-> the present is our past.
 
 
 Questions

@@ -2,7 +2,7 @@
 ### This is a survey smart contract, anyone could create a questionnaire (only allow YES/NO question at this stage) and reward to the participants by Ether. 
 
 
-Running the dapp locally
+#### Running the dapp locally
 **git clone** https://github.com/ansonla3/consensysProject
 
 Go to the 

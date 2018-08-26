@@ -18,22 +18,14 @@ The smart contract has been deployed to the Rinkeby testnet. Please do the follo
 
 * When the app is ready, go to http://localhost:3000
 
-*This text will be italic*
-_This will also be italic_
-
-**This text will be bold**
-__This will also be bold__
-
-_You **can** combine them_
-
-
 
 ### Running the Tests
 
 Make sure install the ganache-cli. If not, run 
 > npm install -g ganache-cli
 
-* run > ganache-cli
+* run 
+> ganache-cli
 * **cd** consensysProject
 * Compile the contracts **
 How to run unit test

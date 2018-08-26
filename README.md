@@ -3,10 +3,15 @@
 
 
 #### Running the dapp locally
+
 **git clone** https://github.com/ansonla3/consensysProject
+
 **cd** consensysProject
+
 npm install
+
 npm run dev
+
 After the app is ready, go to http://localhost:3000
 
 Contract is deployed to the resinkey testate, 

@@ -31,5 +31,11 @@ How to run unit test
 2. go to   run truffle test ./test/questittit .js
 
 
+As Kanye West said:
+
+> We're living the future so
+> the present is our past.
+
+
 Questions
 Please free feel to open issues in this repo if you have any questions.

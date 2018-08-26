@@ -9,7 +9,7 @@ Node Version: v8.7
 
 The smart contract has been deployed to the Rinkeby testnet. Please do the following steps to interact with the smart contract.
 
-**If you want to get some ETH in testnet, go to https://faucet.rinkeby.io/ **
+**If you want to get some ETH in testnet, go to https://faucet.rinkeby.io/**
 
 * Download the project, `git clone https://github.com/ansonla3/consensysProject`
 * `cd consensysProject`

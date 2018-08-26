@@ -1,13 +1,13 @@
 # Background
-### This is a survey smart contract, anyone could create a questionnaire (only allow YES/NO question at this stage) and reward to the participants by Ether. 
+### This is a survey smart contract, anyone can create a questionnaire (only allow YES/NO question at this stage) and reward to the participants by Ether. 
 
 
 #### Running the dapp locally
 **git clone** https://github.com/ansonla3/consensysProject
-
-Go to the 
-nom run install
-npm run dev    and go to the http://localhost:3000
+**cd** consensysProject
+npm install
+npm run dev
+After the app is ready, go to http://localhost:3000
 
 Contract is deployed to the resinkey testate, 
 

@@ -1,5 +1,6 @@
 # Background
-### This is a survey smart contract, anyone can create a questionnaire and reward to the participants by Ether. ##### (Only allow YES/NO question at this stage)
+### This is a survey smart contract, anyone can create a questionnaire and reward to the participants by Ether. 
+##### (Only allow YES/NO question at this stage)
 
 <img src="src/static/create_questionnaire.png" width="600"> 
 

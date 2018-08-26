@@ -21,7 +21,8 @@ The smart contract has been deployed to the Rinkeby testnet. Please do the follo
 
 #### Running the Tests
 
-Make sure install the ganache-cli. If not, run > npm install -g ganache-cli
+Make sure install the ganache-cli. If not, run 
+> npm install -g ganache-cli
 
 * **cd** consensysProject
 * Compile the contracts **

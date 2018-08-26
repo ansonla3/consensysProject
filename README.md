@@ -8,14 +8,10 @@ Node Version: v8.7
 
 The smart contract has been deployed to the Rinkeby testnet. Please do the following steps to interact with the smart contract.
 
-* **git clone** https://github.com/ansonla3/consensysProject
-
-* **cd** consensysProject
-
-* npm install
-
+* Download the project, `git clone https://github.com/ansonla3/consensysProject`
+* `cd consensysProject`
+* Install all the packages, `npm install`
 * npm run dev
-
 * When the app is ready, go to http://localhost:3000
 
 
@@ -23,11 +19,11 @@ The smart contract has been deployed to the Rinkeby testnet. Please do the follo
 
 Make sure install the ganache-cli. If not, run `npm install -g ganache-cli`
 
-* To start the ganache , run `ganache-cli`
-* Go to the consensys project, run `cd consensyProject`
-* Compile contracts, run `truffle compile`
-* Migrate contracts, run `truffle migrate`
-* Execute all tests, run `truffle test ./test/questionnaire`
+* To start the ganache, `ganache-cli`
+* Go to the consensys project, `cd consensyProject`
+* Compile contracts, `truffle compile`
+* Migrate contracts, `truffle migrate`
+* Execute all tests, `truffle test ./test/questionnaire`
 
 ### Questions
 Please free feel to open an issue in this repo if you have any questions.

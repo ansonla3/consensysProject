@@ -4,15 +4,20 @@
 
 #### Running the dapp locally
 
-**git clone** https://github.com/ansonla3/consensysProject
+NodeJS: v8.7.0
+Npm: 6.4.0
 
-**cd** consensysProject
+The smart contract has been deployed to the Rinkeby testnet. Please do the following steps to interact with the smart contract.
 
-npm install
+* **git clone** https://github.com/ansonla3/consensysProject
 
-npm run dev
+* **cd** consensysProject
 
-After the app is ready, go to http://localhost:3000
+* npm install
+
+* npm run dev
+
+* After the app is ready, go to http://localhost:3000
 
 Contract is deployed to the resinkey testate, 
 

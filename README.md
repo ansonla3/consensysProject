@@ -2,7 +2,7 @@
 ### This is a survey smart contract, anyone can create a questionnaire (only allow YES/NO question at this stage) and reward to the participants by Ether. 
 
 
-#### Running the Dapp locally
+### Running the Dapp locally
 
 Node Version: v8.7
 
@@ -19,7 +19,7 @@ The smart contract has been deployed to the Rinkeby testnet. Please do the follo
 * After the app is ready, go to http://localhost:3000
 
 
-#### Running the Tests
+### Running the Tests
 
 Make sure install the ganache-cli. If not, run 
 > npm install -g ganache-cli
@@ -35,4 +35,4 @@ How to run unit test
 
 
 Questions
-Please free feel to open issues in this repo if you have any questions.
+Please free feel to open an issue in this repo if you have any questions.

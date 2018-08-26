@@ -1,0 +1,8 @@
+Deployed address on Rinkeby:
+
+Survey Contract Address (Survey.sol)
+0x605079a2d3b00445eec5b92a3dfbc1412613e821
+
+Registry Contract Address (Registry.sol)
+0xd56f0d0cc3940eb5b25c449b8c6c4922db7230cf
+

@@ -133,24 +133,7 @@ export default {
 				}
 			]
 
-// this.ResolverContract.methods.setAddr(namehash("survey.test", this.web3Instance), "0xaf5027cdcf25637ea4c4777e03f517a49f60de39")
-// 	.send( { from: currentAccount })
-// 	.on('transactionHash', function(hash){
-// 		console.log('Tx Hash:', hash)
-// 	})
-// 	.on('confirmation', function(confirmationNumber, receipt){
-// 		console.log('Confirm number :', confirmationNumber)
-// 	})
-// 	.on('receipt', function(receipt){
-// 		// receipt example
-// 		console.log('Receipt :', receipt)
-// 	})
-
-	// 			const surveyContractAddress = await this.ResolverContract.methods.addr(namehash(config.ENS_NAME_RINKEBY, this.web3Instance)).call()
-	// console.log(" address :", surveyContractAddress)
-
 			const { hash } = await this.$axios.$post(`${config.IPFS_END_POINT}/json/store`, this.questions)
-
 			const key = this.web3Instance.utils.sha3(currentAccount + Date.now()) 
 			
 			this.showAfterSubmit()

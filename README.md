@@ -5,6 +5,7 @@
 #### Running the dapp locally
 
 NodeJS: v8.7.0
+
 Npm: 6.4.0
 
 The smart contract has been deployed to the Rinkeby testnet. Please do the following steps to interact with the smart contract.

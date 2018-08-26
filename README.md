@@ -5,11 +5,10 @@
 
 ### Running the Dapp locally
 
-Node Version: v8.7
-
-The smart contract has been deployed to the Rinkeby testnet. Please do the following steps to interact with the smart contract.
+NodeJS Version: v8.7
 
 **If you want to get some ETH in testnet, go to https://faucet.rinkeby.io/**
+The smart contract has been deployed to the Rinkeby testnet. Please do the following steps to interact with the smart contract.
 
 * Download the project, `git clone https://github.com/ansonla3/consensysProject`
 * `cd consensysProject`

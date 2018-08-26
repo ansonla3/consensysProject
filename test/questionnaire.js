@@ -4,7 +4,9 @@ const axios = require('axios');
 
 contract("Survey", async (accounts) => {
     let questionnaireKey
-    it("should create a new questionnaire", async() => {
+    // @notice To test create a questionnaire, it is required to test the IPFS storage service & verify
+    // the questionnaire information
+    it("should create a questionnaire", async() => {
         try {
             const instance = await Survey.deployed()
             // Use the first account as questionnaire creator
@@ -59,6 +61,7 @@ contract("Survey", async (accounts) => {
             assert.isFalse(error, "Should not be false")         
         }
     }),
+    // @notice To test the submission to a specific questionnaire after you created a questionnaire
     it("should submit a response to the questionnaire", async () => {
         try {
             const instance = await Survey.deployed()
@@ -93,6 +96,8 @@ contract("Survey", async (accounts) => {
             assert.isFalse(error, "Should not be false")         
         }
     })
+    // @notice To test the distribute reward to the participants when the questionnaire target
+    // is reached
     it("should distribute rewards to the sender", async () => {
         try {
             const instance = await Survey.deployed()   
@@ -109,6 +114,7 @@ contract("Survey", async (accounts) => {
             assert.isFalse(error, "Should not be false")         
         }
     }),
+    // @notice When particpants submit questionnaire more than once, error will be shown
     it("should show an error when an user submit twice to the same questionnaire", async () => {
         try {
             const instance = await Survey.deployed()
@@ -165,6 +171,7 @@ contract("Survey", async (accounts) => {
             assert(true, ' Expected throw an error when an user submit twice')
         }
     }),
+    // @notice create a questionnaire is not allowed when the contract is paused
     it("should result in error when an user create a questionnaire during the smart contract status is stopped .", async () => {
         try {
             const instance = await Survey.deployed()
@@ -209,6 +216,7 @@ contract("Survey", async (accounts) => {
             assert(true, 'Expected throw an error when the contract status is stopped')
         }
     }),
+    // @notice if participants try to claim reward more than once, error will be shown
     it("should show an error when an user request reward claim to a questionnaire that he/she has not participiated", async () => {
         try {
            const instance = await Survey.deployed()

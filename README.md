@@ -1,5 +1,5 @@
 # Survey Dapp
-### This is a survey dapp, anyone can create a questionnaire and reward to the participants by Ether. 
+### This is a survey dapp, anyone can create a questionnaire and reward (ETH) to the participants. 
 ##### (Only allow YES/NO question at this stage)
 
 <img src="src/static/create_questionnaire.png" width="600"> 

@@ -1,5 +1,5 @@
-Background
-This is a survey smart contract, anyone could create a questionnaire (only allow YES/NO question at this stage) and reward to the participants by Ether. 
+# Background
+## This is a survey smart contract, anyone could create a questionnaire (only allow YES/NO question at this stage) and reward to the participants by Ether. 
 
 
 How to run the dapp   

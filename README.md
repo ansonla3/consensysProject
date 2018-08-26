@@ -4,7 +4,7 @@
 
 #### Running the dapp locally
 
-Node Version: v8.7.0
+Node Version: v8.7
 
 The smart contract has been deployed to the Rinkeby testnet. Please do the following steps to interact with the smart contract.
 

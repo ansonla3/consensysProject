@@ -1,4 +1,4 @@
-# Background
+# Survey Dapp
 ### This is a survey smart contract, anyone can create a questionnaire and reward to the participants by Ether. 
 ##### (Only allow YES/NO question at this stage)
 

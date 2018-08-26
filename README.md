@@ -23,7 +23,7 @@ Make sure install the ganache-cli. If not, run `npm install -g ganache-cli`
 * Go to the consensys project, `cd consensyProject`
 * Compile contracts, `truffle compile`
 * Migrate contracts, `truffle migrate`
-* Execute all tests, `truffle test ./test/questionnaire`
+* Execute all tests, `truffle test ./test/questionnaire.js`
 
 ### Questions
 Please free feel to open an issue in this repo if you have any questions.

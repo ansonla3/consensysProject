@@ -21,19 +21,13 @@ The smart contract has been deployed to the Rinkeby testnet. Please do the follo
 
 ### Running the Tests
 
-Make sure install the ganache-cli. If not, run 
-> npm install -g ganache-cli
+Make sure install the ganache-cli. If not, run `npm install -g ganache-cli`
 
-* run 
-> ganache-cli
-* **cd** consensysProject
-* Compile the contracts **
-How to run unit test
-1. Make sure you already install grandam-cli
-2. go to   run truffle test ./test/questittit .js
+* To start the ganache , run `ganache-cli`
+* Go to the consensys project, run `cd consensyProject`
+* Compile contracts, run `truffle compile`
+* Migrate contracts, run `truffle migrate`
+* Execute all tests, run `truffle test ./test/questionnaire`
 
-
-
-
-Questions
+### Questions
 Please free feel to open an issue in this repo if you have any questions.

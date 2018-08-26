@@ -11,7 +11,7 @@ The smart contract has been deployed to the Rinkeby testnet. Please do the follo
 * Download the project, `git clone https://github.com/ansonla3/consensysProject`
 * `cd consensysProject`
 * Install all the packages, `npm install`
-* npm run dev
+* Start the app, `npm run dev`
 * When the app is ready, go to http://localhost:3000
 
 
